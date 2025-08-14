@@ -1,0 +1,85 @@
+{
+	// Configurações específicas para desenvolvimento com Godot
+	"files.associations": {
+		"*.gd": "gdscript",
+		"*.cs": "csharp",
+		"*.tscn": "godot-scene",
+		"*.tres": "godot-resource"
+	},
+	
+
+	
+	// Configurações gerais do editor
+	"editor.renderWhitespace": "boundary",
+	"editor.renderControlCharacters": true,
+	"editor.insertSpaces": false,
+	"editor.tabSize": 4,
+	"editor.detectIndentation": false,
+	
+	// Configurações específicas para outros formatos
+	"[json]": {
+		"editor.insertSpaces": true,
+		"editor.tabSize": 2
+	},
+	"[markdown]": {
+		"editor.insertSpaces": true,
+		"editor.tabSize": 2,
+		"editor.wordWrap": "on"
+	},
+	
+	// Configurações do Godot Language Server
+	"godot_tools.editor_path": "",
+	"godot_tools.gdscript_lsp_server_port": 6005,
+	"godot_tools.gdscript_lsp_server_host": "127.0.0.1",
+	
+	// Configurações de formatação automática
+	"editor.formatOnSave": true,
+	"editor.formatOnType": true,
+	"editor.formatOnPaste": true,
+	"editor.autoIndent": "full",
+	"editor.codeActionsOnSave": {
+		"source.organizeImports": "explicit",
+		"source.fixAll": "explicit"
+	},
+	
+	// Configurações específicas para correção automática em GDScript
+	"[gdscript]": {
+		"editor.insertSpaces": false,
+		"editor.tabSize": 4,
+		"editor.detectIndentation": false,
+		"editor.useTabStops": true,
+		"editor.trimAutoWhitespace": true,
+		"files.trimTrailingWhitespace": true,
+		"files.insertFinalNewline": true,
+		"files.trimFinalNewlines": true,
+		"editor.formatOnSave": true,
+		"editor.formatOnType": true,
+		"editor.formatOnPaste": true,
+		"editor.autoIndent": "full",
+		"editor.indentSize": "tabSize"
+	},
+	
+	// Configurações de busca e arquivos
+	"search.exclude": {
+		"**/.godot": true,
+		"**/.import": true,
+		"**/build": true,
+		"**/dist": true
+	},
+	"files.exclude": {
+		"**/.godot": true,
+		"**/.import": true
+	},
+	
+	// Configurações de Git
+	"git.ignoreLimitWarning": true,
+	
+	// Tema e aparência
+	"workbench.colorTheme": "Default Dark Modern",
+	"editor.minimap.enabled": true,
+	"editor.lineNumbers": "on",
+	"editor.rulers": [80, 120],
+	
+	// Configurações de terminal
+	"terminal.integrated.defaultProfile.linux": "bash"
+}
