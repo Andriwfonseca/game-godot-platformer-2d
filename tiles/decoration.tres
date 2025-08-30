@@ -79,6 +79,13 @@ texture = ExtResource("4_q8fpq")
 11:3/0 = 0
 13:3/0 = 0
 15:3/0 = 0
+12:7/0 = 0
+14:7/0 = 0
+12:8/0 = 0
+13:8/0 = 0
+14:8/0 = 0
+1:1/size_in_atlas = Vector2i(3, 3)
+1:1/0 = 0
 12:5/animation_separation = Vector2i(1, 0)
 12:5/animation_frame_0/duration = 0.3
 12:5/animation_frame_1/duration = 0.3
@@ -89,13 +96,6 @@ texture = ExtResource("4_q8fpq")
 12:6/animation_frame_1/duration = 1.0
 12:6/0 = 0
 12:6/0/z_index = 2
-12:7/0 = 0
-14:7/0 = 0
-12:8/0 = 0
-13:8/0 = 0
-14:8/0 = 0
-1:1/size_in_atlas = Vector2i(3, 3)
-1:1/0 = 0
 
 [resource]
 physics_layer_0/collision_layer = 1
