@@ -1,8 +1,9 @@
-[gd_scene load_steps=4 format=4 uid="uid://bbfrsaqxueayq"]
+[gd_scene load_steps=5 format=4 uid="uid://bbfrsaqxueayq"]
 
 [ext_resource type="PackedScene" uid="uid://dgcths64pflx6" path="res://entities/player.tscn" id="1_uwrxv"]
 [ext_resource type="TileSet" uid="uid://ci6yocecub5y3" path="res://tiles/terrain.tres" id="2_lnu2h"]
 [ext_resource type="TileSet" uid="uid://ckf2afy4m5an6" path="res://tiles/decoration.tres" id="3_lbhrr"]
+[ext_resource type="PackedScene" uid="uid://37dadag5ib6x" path="res://entities/camera.tscn" id="4_lbhrr"]
 
 [node name="Game" type="Node2D"]
 
@@ -18,3 +19,6 @@ tile_set = ExtResource("2_lnu2h")
 [node name="Decoration" type="TileMapLayer" parent="Tiles"]
 tile_map_data = PackedByteArray("AAAPAAYAAAADAAUAAAAFAAYAAAABAAUAAAAJAAYAAAABAAUAAAATAAYAAAABAAUAAAAYAAYAAAAOAAUAAAAYAAUAAAAOAAUAAAAYAAQAAAAOAAUAAAAYAAMAAAAOAAQAAAAZAAMAAAAPAAQAAAAaAAMAAAAPAAQAAAAbAAMAAAAQAAQAAAAbAAQAAAAQAAUAAAAcAAMAAAARAAQAAAAdAAMAAAARAAQAAAAeAAMAAAASAAQAAAAeAAQAAAASAAUAAAARAAMAAAABAAEAAAAgAAMAAAAFAAEAAAABAAUAAAAJAAEAAAAwAAIAAgAAAAAAAAAzAAMAAAAJAAEAAAA=")
 tile_set = ExtResource("3_lbhrr")
+
+[node name="Camera" parent="." instance=ExtResource("4_lbhrr")]
+limit_top = 0
